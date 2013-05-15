@@ -1,0 +1,1 @@
+var search_data = {"index":{"searchIndex":["object","sum()"],"longSearchIndex":["object","object#sum()"],"info":[["Object","","Object.html","",""],["sum","Object","Object.html#method-i-sum","(num1,num2)",""]]}}
