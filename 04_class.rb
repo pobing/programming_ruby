@@ -75,3 +75,14 @@ song4 = Song.new("hero","antd",280)
  p Songlist.too_long(song3) #false
  p Songlist.too_long(song4) #true
 
+
+ class MyLogger
+    private_class_method :new
+    @@logger = nil
+    def self.create
+      @@logger = new unless @@logger
+      @@logger
+    end
+ end
+ p MyLogger.create.object_id
+ p MyLogger.create.object_id
