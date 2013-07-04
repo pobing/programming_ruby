@@ -1,0 +1,24 @@
+irb会话
+
+$irb
+$self
+->main
+$irb "boy"
+$self
+-> "boy"
+$upcase
+-> "BOY"
+$size
+-> "3"
+$gsub(/[aeiou]/,"@")
+-> "B@Y"
+$irb_exit
+$self
+-> main
+
+
+##
+0 代表8进制
+0b 代表二进制
+0d 代表十进制
+0x 代表十六进制
